@@ -31,7 +31,7 @@ body {
 }
 
 .hero-main-text {
-    font-size: 24px;
+    font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
 }
@@ -63,7 +63,7 @@ body {
 }
 
 .information {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: 900;
     color: #1F2937;
 }
@@ -83,6 +83,31 @@ body {
     -webkit-box-shadow: 0px 10px 20px 1px rgba(66, 68, 90, 1);
     -moz-box-shadow: 0px 10px 20px 1px rgba(66, 68, 90, 1);
     box-shadow: 0px 10px 20px 1px rgba(66, 68, 90, 1);
+}
+
+.third-section {
+    background-color: #E5E7EB;
+    padding: 50px 100px;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.author {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
 }
 
 ul {
