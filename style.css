@@ -128,7 +128,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #3882F6;
-    padding: 20px 100px;
+    padding: 30px 140px;
     border-radius: 12px;
 }
 
@@ -154,6 +154,13 @@ body {
     flex-shrink: 0;
 }
 
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px 100px;
+    color: #fff;
+}
+
 ul {
     display: flex;
     list-style-type: none;
@@ -165,5 +172,9 @@ ul {
 a {
     text-decoration: none;
     color: #c9c7c7;
+}
+
+a:hover{
+    color: #fff;
 }
 
